@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: *
-Sitemap: https://justinschuldt.github.io/wormhole-stats-2//sitemap/sitemap-index.xml
+Sitemap: https://justinschuldt.github.io/wormhole-stats-2/sitemap/sitemap-index.xml
 Host: https://justinschuldt.github.io
