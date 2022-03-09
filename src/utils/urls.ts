@@ -1,9 +1,9 @@
 // Internal
 export const home = "/";
-export const tvb = "/TVB/";
-export const tvl = "/TVL/";
-export const messages = "/messages/";
-export const nfts = "/NFTs/";
+export const tvb = process.env.GATSBY_SITE_URL + "/TVB/";
+export const tvl = process.env.GATSBY_SITE_URL + "/TVL/";
+export const messages = process.env.GATSBY_SITE_URL + "/messages/";
+export const nfts = process.env.GATSBY_SITE_URL + "/NFTs/";
 
 // External
 export const portal = "https://portalbridge.com/";

@@ -55,7 +55,7 @@ const NFTChains: React.FC<StatsProps> = ({
     const totalsUrl = `${baseUrl}nfts`;
     let url = `${totalsUrl}?`
     if (groupBy) {
-      url = `${url}&groupBy=${groupBy}`;
+      url = `${url}groupBy=${groupBy}`;
     }
     if (forChain) {
       url = `${url}&forChain=${forChain}`;
